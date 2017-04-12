@@ -7,7 +7,8 @@ requests==2.4.1
 parsedatetime==1.1.2
 pyasn1==0.1.7
 pyasn1-modules==0.0.5
-sleekxmpp==1.3.2
+# sleekxmpp==1.3.2
+git+https://github.com/fritzy/SleekXMPP.git@738132260d0b39966978f712e99d0c872d648c4a#egg=sleekxmpp
 APScheduler==2.1.2
 CherryPy==3.6.0
 Jinja2==2.7.3
